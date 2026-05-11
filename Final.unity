@@ -661,6 +661,7 @@ GameObject:
   - component: {fileID: 576671611}
   - component: {fileID: 576671610}
   - component: {fileID: 576671609}
+  - component: {fileID: 576671613}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -751,6 +752,19 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &576671613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576671608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e92c6dbf31869a43b54db3dc1a99580, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Timer
+  timerText: {fileID: 1755492024}
 --- !u!1 &667903286
 GameObject:
   m_ObjectHideFlags: 0
