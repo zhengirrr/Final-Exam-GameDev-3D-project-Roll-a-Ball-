@@ -799,6 +799,7 @@ GameObject:
   - component: {fileID: 576671610}
   - component: {fileID: 576671609}
   - component: {fileID: 576671613}
+  - component: {fileID: 576671614}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -903,6 +904,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Timer
   timerText: {fileID: 1755492024}
+--- !u!114 &576671614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 576671608}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 244a84e6a853ac24ab7e6d1a344bc650, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Heart
+  heartText: {fileID: 421288806}
+  player: {fileID: 1758691039}
 --- !u!1 &667903286
 GameObject:
   m_ObjectHideFlags: 0
