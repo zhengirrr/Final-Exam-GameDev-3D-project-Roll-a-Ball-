@@ -16,13 +16,13 @@
 
 ## Project Description
 This is a 3D collectible platformer game created in Unity.
-The player can collect objects around the map while avoiding falling off the platform.
+The player can collect objects around the map while avoiding falling off the platform and running from the enemy.
 
 ---
 
 ## Custom Features
-- Timer system
-- HP/Lives system
+- We added Timer system to keep track of time.
+- Also added HP/Lives system and if the player will collide the player 
 
 ---
 
@@ -34,9 +34,11 @@ The player can collect objects around the map while avoiding falling off the pla
 - PickUp Object
 - GitHub management
 - Scene setup
+- Building up a game
 
 ### Fariza
 - Timer system
 - Player area and scripts
 - HP/Lives system
 - Adjuct the Camera position
+- AI Navigation
